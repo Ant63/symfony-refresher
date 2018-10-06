@@ -16,11 +16,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class ArticleController extends AbstractController {
 
   /**
-   * @\Symfony\Component\Routing\Annotation\Route()
+   * @Route("/", name="app_homepage")
    */
   public function homepage() {
-    return new Response(
-      'Homepage yeah'
+    return $this->render(
+      'article/homepage.html.twig'
     );
   }
 
