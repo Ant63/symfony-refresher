@@ -8,6 +8,7 @@
         "sensio/framework-extra-bundle": "^5.2",
         "sensiolabs/security-checker": "^5.0",
         "symfony/console": "*",
+        "symfony/debug-pack": "^1.0",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "*",
         "symfony/twig-bundle": "*",
@@ -15,7 +16,8 @@
         "symfony/yaml": "*"
     },
     "require-dev": {
-        "symfony/dotenv": "*"
+        "symfony/dotenv": "*",
+        "symfony/profiler-pack": "^1.0"
     },
     "config": {
         "preferred-install": {
